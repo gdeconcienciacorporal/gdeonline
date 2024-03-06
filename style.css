@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 85%; /* Utiliza porcentaje en lugar de píxeles */
+  margin: 0 auto;
+  padding: 2em; /* Utiliza em en lugar de píxeles */
+  background-color: #2c2c3069;
+}
+
+.main-container {
+  background-color: #2c2c3069;
+  padding: 2em; /* Utiliza em en lugar de píxeles */
+  margin: 2em; /* Eliminado para evitar márgenes laterales en dispositivos pequeños */
+  text-align: center;
+}
+
+
+form {
+
+  font-family: 'Arial', sans-serif;
+  margin: 20;
+  padding: 60;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input[type="submit" i]   {
+  background: linear-gradient(to right, #ca7f16, #e7e306);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 90%;
+}
